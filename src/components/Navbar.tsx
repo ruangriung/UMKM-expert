@@ -16,9 +16,11 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="#layanan" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">Layanan</a>
-            <a href="#proses" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">Proses</a>
+            <a href="#portfolio" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">Karya</a>
             <a href="#harga" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">Paket Usaha</a>
             <a href="#kalkulator" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">Custom Paket</a>
+            <a href="/proposal.html" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">Proposal</a>
+            <a href="#faq" className="text-natural-text/70 hover:text-natural-primary transition-colors text-sm font-medium uppercase tracking-widest">FAQ</a>
             <a 
               href={WHATSAPP_LINK}
               target="_blank"
@@ -43,9 +45,11 @@ export default function Navbar() {
         <div className="md:hidden bg-natural-bg border-b border-natural-border">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#layanan" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">Layanan</a>
-            <a href="#proses" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">Proses</a>
+            <a href="#portfolio" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">Karya</a>
             <a href="#harga" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">Paket Usaha</a>
             <a href="#kalkulator" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">Custom Paket</a>
+            <a href="/proposal.html" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">Proposal</a>
+            <a href="#faq" className="block px-3 py-2 text-natural-text hover:bg-natural-light hover:text-natural-primary rounded-md uppercase text-xs font-bold tracking-wider">FAQ</a>
             <a 
               href={WHATSAPP_LINK} 
               target="_blank"
