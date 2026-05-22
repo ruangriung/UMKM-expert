@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 export default function FloatingWhatsApp() {
   const phoneNumber = "6281330763633"; // Ganti dengan nomor aktual
-  const message = encodeURIComponent("Halo Karya Kontainer, saya ingin konsultasi mengenai paket layanan bisnis terima beres.");
+  const message = encodeURIComponent("Halo RuangRiung Academy, saya ingin konsultasi mengenai paket layanan bisnis terima beres.");
 
   return (
     <a

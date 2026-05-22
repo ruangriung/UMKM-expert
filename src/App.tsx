@@ -5,6 +5,7 @@
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
 import Customization from './components/Customization';
 import Process from './components/Process';
@@ -22,6 +23,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <TrustedBy />
         <Services />
         <Customization />
         <Process />

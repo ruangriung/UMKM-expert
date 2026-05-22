@@ -38,7 +38,7 @@ export default function ContactCTA() {
     e.preventDefault();
     const subject = encodeURIComponent(`Penawaran Custom Project - ${inquiryName}`);
     const body = encodeURIComponent(`Nama: ${inquiryName}\nLayanan: ${inquiryService}\nAnggaran: ${inquiryBudget}\nTenggat Waktu: ${inquiryDeadline}\n\nDetail:\n${inquiryDesc}`);
-    window.location.href = `mailto:admin@karyakontainer.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:admin@ruangriung.my.id?subject=${subject}&body=${body}`;
   };
 
   return (

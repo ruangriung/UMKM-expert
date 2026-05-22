@@ -1,6 +1,6 @@
-# Karya Kontainer - Solusi Bisnis Terima Beres
+# RuangRiung Academy - Solusi Bisnis Terima Beres
 
-Landing page modern dan responsif untuk **Karya Kontainer**, sebuah layanan penyedia jasa terpadu (All-in-One) untuk UMKM dan Franchise. Layanan yang ditawarkan mencakup pembuatan booth kontainer custom, identitas visual, pendaftaran merchant online, pembuatan website, strategi digital marketing, hingga pengurusan legalitas bisnis (Sertifikat Halal, NIB, & HAKI).
+Landing page modern dan responsif untuk **RuangRiung Academy**, sebuah layanan penyedia jasa terpadu (All-in-One) untuk UMKM dan Franchise. Layanan yang ditawarkan mencakup pembuatan booth kontainer custom, identitas visual, pendaftaran merchant online, pembuatan website, strategi digital marketing, hingga pengurusan legalitas bisnis (Sertifikat Halal, NIB, & HAKI).
 
 ## 🚀 Fitur Utama Website
 
@@ -60,4 +60,4 @@ Proyek ini sudah dikonfigurasi agar kompatibel dengan Cloudflare Pages (SPA rout
 
 ## 📝 Lisensi
 
-Dikustomisasi untuk kebutuhan Karya Kontainer.
+Dikustomisasi untuk kebutuhan RuangRiung Academy.

@@ -10,6 +10,14 @@
   --color-natural-light: #FFECD1;
   --color-natural-base: #FFFFFF;
 
+  --color-primary-50: #f0f4ff;
+  --color-primary-100: #e1e9fe;
+  --color-primary-600: #1e3c72;
+  --color-primary-800: #2a5298;
+  --color-primary-900: #111e38;
+  --color-accent-500: #f0a500;
+  --color-accent-600: #d18d00;
+
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -17,4 +25,28 @@
 body {
   background-color: var(--color-natural-bg);
   color: var(--color-natural-text);
+}
+
+@media print {
+  body {
+      background: white !important;
+      color: #111827 !important;
+  }
+  .no-print {
+      display: none !important;
+  }
+  .print-card {
+      border: 1px solid #e5e7eb !important;
+      box-shadow: none !important;
+      page-break-inside: avoid;
+  }
+  section {
+      page-break-inside: avoid;
+  }
+  header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298) !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      color: white !important;
+  }
 }

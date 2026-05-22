@@ -30,7 +30,7 @@ export default function BentoBuilder() {
 
   const formatMillions = (val: number) => `Rp ${val} Juta`;
 
-  const waText = `Halo Karya Kontainer! Saya tertarik membangun bisnis dengan preferensi berikut:\n\n`
+  const waText = `Halo RuangRiung Academy! Saya tertarik membangun bisnis dengan preferensi berikut:\n\n`
     + `*Budget:* ${formatMillions(budget)}\n`
     + `*Ukuran Lahan:* ${length}m x ${width}m\n`
     + `*Gaya Desain Booth:* ${DESIGN_STYLES.find(s => s.id === style)?.label}\n`
