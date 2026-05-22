@@ -16,6 +16,9 @@ export default defineConfig(() => {
         input: {
           main: path.resolve(__dirname, 'index.html'),
           proposal: path.resolve(__dirname, 'proposal.html'),
+          privacy: path.resolve(__dirname, 'privacy.html'),
+          terms: path.resolve(__dirname, 'terms.html'),
+          admin: path.resolve(__dirname, 'admin.html'),
         },
       },
     },

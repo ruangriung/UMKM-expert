@@ -42,8 +42,12 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-natural-border text-xs opacity-50 uppercase tracking-widest text-center">
-        &copy; {new Date().getFullYear()} RuangRiung Academy. All rights reserved.
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-natural-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs opacity-60 uppercase tracking-widest text-center">
+        <span>&copy; {new Date().getFullYear()} RuangRiung Academy. All rights reserved.</span>
+        <div className="flex gap-4">
+          <a href="/privacy.html" className="hover:text-natural-primary transition-colors">Kebijakan Privasi</a>
+          <a href="/terms.html" className="hover:text-natural-primary transition-colors">Syarat & Ketentuan</a>
+        </div>
       </div>
     </footer>
   );
